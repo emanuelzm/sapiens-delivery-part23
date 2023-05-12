@@ -1,0 +1,195 @@
+/*Interviews.html*/
+
+.Fondo {
+    background: url('../img/scenery/PaisajeColombiano.png')  #3B99E0 fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    filter: blur(5px) contrast(90%);
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+.site {
+    box-shadow: 2px 2px 10px #666;
+}
+
+.icon::before {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 25%;
+    width: 25%;
+    height: 25%;
+    border-radius: 100% solid #fff;
+    filter: drop-shadow(5px 5px 10px #444);
+}
+
+.icon:hover::before {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 25%;
+    width: 25%;
+    height: 25%;
+    border-radius: 100% solid #fff;
+    filter: drop-shadow(5px 5px 10px #444);
+}
+
+.icon::before {
+    content: url('../img/videos/otros/newPlay.svg');
+}
+
+button.disabled.list .icon::before {
+    content: url('../img/videos/otros/newLook.svg');
+}
+
+button.disabled.prepare .icon::before {
+    content: url('../img/videos/otros/newCalendar.svg');
+}
+
+button.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+button.disabled::after {
+    color: red;
+    border-radius: 100px solid green;
+    position: flex;
+    display: inline;
+    font-weight: bold;
+    opacity: 80%;
+}
+                    
+/*Button ID Disabled After */
+
+    /*button#NumberImg5.disabled::after {
+        content: 'Proximamente';
+    }
+
+    button#NumberImg6.disabled::after {
+        content: 'Proximamente';
+    }
+
+    button#NumberImg7.disabled::after {
+        content: 'Proximamente';
+    }*/
+
+/* Finish Code */
+
+.transparentButton {
+    background-color: transparent!important;
+    color: transparent!important;
+    border: 0px solid transparent!important;
+    border-radius: 0px solid transparent!important;
+}
+
+.readText {
+    line-height: 1.6;
+    font-weight: lighter;
+}
+
+.large {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.floter {
+    position: fixed;
+    color: #fff;
+    background-color: #000;
+    filter: drop-shadow(1px 1px 1px #000);
+    width: 5%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    text-decoration: none;
+}
+
+.imagePerson {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.divter {
+    text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countDate {
+    color: #000!important;
+    margin-top: 2px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+/* Connect.html */
+
+.MyStyles p {
+    text-align: justify;
+}
+
+.MyStyles img {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 25px solid transparent;                     
+}
+
+.beneficios {
+    margin-top: 20px;
+}
+
+.MyStyles li {
+    background-color: transparent;
+    border: 1px solid transparent;
+    display: inline;
+    justify-content: center;
+    list-style: none;
+    text-align: justify;
+}
+
+.MyStyles li::before {
+    content: '•';
+    margin-right: 5px;
+    text-stroke: 5px #000;
+}
+
+.text-centerio {
+    text-align: center;
+    align-items: center;
+}
+
+.clean-block {
+    background-color: #f6f6f6;
+}
+
+.clean-block .container .row {
+    background-color: #ffffff;
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.clean-block .container .row div {
+    padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}

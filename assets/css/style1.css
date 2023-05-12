@@ -1,0 +1,98 @@
+.Ainput[type="submit"] {
+  background: rgb(6, 164, 141);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.Alabel {
+  color: rgb(6, 164, 141);
+  font-weight: 700;
+}
+
+.Ainput {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #e1e2eb;
+  color: #102a43;
+  width: 40%;
+  border-radius: 4px;
+  padding-left: 4px;
+}
+
+.money {
+  background-color: rgb(6, 164, 141);
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.money p::before {
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+}
+
+.money #p1::before {
+background-image: url('https://rbxflash.webnode.es/_files/200000015-919e3919e7/450/ROBUX_ICON.png');
+}
+
+.money #p2::before {
+  background-image: url('https://rbxflash.webnode.es/_files/200000016-6266162664/200/complet%20offers.PNG');
+}
+
+.money p {
+  font-weight: 700;
+  padding-top: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+
+.money span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.money i {
+  color: #fff;
+  margin: 1px;
+}
+
+.feedOffers {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 5px; 
+  text-align: center;
+}
+
+.feedOffers #persona::before {
+  content: '😃';
+  margin-right: 5px;
+}
+
+.feedOffers span {
+  margin: 2px;
+  color: rgb(6, 164, 141);
+  text-shadow: 2px 0 0 #aaa
+}
+
+.feedOffers #persona {
+  color: rgb(6, 164, 141);
+}
+
+.feedOffers a {
+  color: rgb(6, 164, 141);
+}
+
+.feedOffers p {
+  font-weight: 700;
+}
