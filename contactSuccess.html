@@ -1,0 +1,50 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contactanos - Sapiens delivery</title>
+    <meta name="robots" content="noindex, nofollow">
+</head>
+
+<?php
+
+$servername = "sql304.epizy.com";
+$database = "epiz_27652406_niucamon";
+$username = "epiz_27652406";
+$password = "HHdTVo8iPQJ";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+ 
+echo "Connected successfully";
+
+   if (isset($_GET['submiter'])) {
+
+        $namer = $_POST['nameVia'];
+        $subjer = $_POST['subjectVia'];
+        $emair = $_POST['emailVia'];
+        $messager = $_POST['massageVia'];
+
+        echo $namer . $subjet . $emair . $messager;
+        
+        //$c = mysql_num_rows(mysqli_query("SELECT * FROM emails WHERE email = '$emair'");
+        //echo "Tranquil(o/a), ya nos enviaste tu solicitud, pronto te daremos respuesta, gracias"; 
+        //$sql = "INSERT INTO 'emails' (id,name,subject,email,message, date) VALUES ('', '" . $namer . "', '" . $subjer . "', '" . $emair . "', '" . $messager . "', '" . $now() . "')"
+          //  echo '<meta http-equiv="refresh" content="1;url=contact-us.html" />';
+
+        $sql = "INSERT INTO 'emails' (id,name,subject,email,message, date) VALUES ('', '" . $namer . "', '" . $subjer . "', '" . $emair . "', '" . $messager . "', '" . $now() . "')";
+        if (mysqli_query($conn, $sql)) {
+            echo "Gracias ". $namer . ", pronto te daremos respuesta :)";
+            echo '<meta http-equiv="refresh" content="1;url=contact-us.html" />';
+        } else {
+            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+            echo '<meta http-equiv="refresh" content="1;url=contact-us.html" />';
+        }
+
+    /*}   else {
+        echo "Valla, Eso no ha funcionado :(";
+        echo '<meta http-equiv="refresh" content="1;url=contact-us.html" />';
+    */ } else {
+        echo "Lamentablemente no puedes estar aquí sin un permiso :(";
+        echo '<meta http-equiv="refresh" content="1;url=contact-us.html" />';
+    }
+?>

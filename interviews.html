@@ -1,0 +1,661 @@
+<?php
+
+$not = "Sapiens Delivery";
+$invTy1 = "Investigador";
+$invTy2 = "Investigadora";
+
+//1
+$num1 = 1;
+$per1 = "Juanita Pardo";
+$tex1 = "";
+$vid1 = "ROu-exv_QOI";
+$ter1 = "Institucional";
+$ext1 = "juanita";
+$img1 = $ext1 . "-sapiensdelivery.svg";
+
+//2
+$num2 = 2;
+$per2 = "Jaime Vergara";
+$tex2 = "La investigación de Jaime llamado Determinantes Espaciales de la distribución de la tierra del Caquetá, extendiéndose a los demás territorios, Mira el capitulo completo para saber mas de la Investigación.";
+$vid2 = "T3XOnDD0TTA";
+$ter2 = "Caquetá";
+$ext2 = "jaime";
+$img2 = $ext2 . "-sapiensdelivery.svg";
+
+
+//3
+$num3 = 3;
+$per3 = "Juliana";
+$tex3 = "La investigación de Juliana trata de la relación política agraria que se implemento a finales de 1980 con las soberanía alimentaria de los campesinos de Pasto alterando la forma en que producían los campesinos.";
+$vid3 = "cJaMRmlVI_w";
+$ter3 = "Nariño";
+$ext3 = "juliana";
+$img3 = $ext3 . "-sapiensdelivery.svg";
+
+//4
+$num4 = 4;
+$per4 = "Deison";
+$tex4 = "La investigación de Deison Llamado Territorio y estima social. Trata desde una mirada desde el desarrollo económico, criminalidad y las problemáticas generales del Caribe y la afectación en los territorios.";
+$vid4 = "SXnCWyJjPMg";
+$ter4 = "Barranquilla";
+$ext4 = "deison";
+$img4 = $ext4 . "-sapiensdelivery.svg";
+
+//5
+$num5 = 5;
+$per5 = "Clemen";
+$tex5 = "La investigación de Clemen Trata sobre la propaganda de la guerrillas de las Farc durante el conflicto armado en Colombia.";
+$vid5 = "12sDzZ2_-iw";
+$ter5 = "Grupo especifico";
+$ext5 = "clemen";
+$img5 = $ext5 . "-sapiensdelivery.svg";
+
+//6
+$num6 = 6;
+$per6 = "Francesco";
+$tex6 = "Francesco es el Director del CID de la FCE Bogotá.";
+$vid6 = "NZ-LbdKUxkI";
+$ter6 = "Directores";
+$ext6 = "francesco";
+$img6 = $ext6 . "-sapiensdelivery.svg";
+
+//7
+$num7 = 7;
+$per7 = "Jaime Vergara";
+$tex7 = "En este video Jaime Vergara parte del equipo de Sapiens Delivery nos va a contar cual es la historia del proyecto, Quédate hasta el final va ha estar muy interesante.";
+$vid7 = "";
+$ter7 = "Institucional";
+$ext7 = "jaime";
+$img7 = $ext7 . "-sapiensdelivery.svg";
+
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Entrevistas - Sapiens delivery</title>
+    <?php include("./admin/headSeo.php") ?>
+    <link rel="stylesheet" href="https://unpkg.com/plyr@3.6.4/dist/plyr.css">
+    <script src="https://unpkg.com/plyr@3.6.4/dist/plyr.min.js"></script>
+</head>
+
+<body>
+    <?php include("./admin/nav.php") ?>
+
+    <main class="page gallery-page">
+        <div class="Fondo img-fluid"></div>
+        <section class="clean-block clean-gallery dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Entrevistas</h2>
+                    <p>Aquí encontraras todas las Entrevistas con los Investigadores que han pasado por Sapiens delivery</p>
+                </div>
+
+                <div class="row">
+                    <!-- Video N0 #1 -->
+                    <div class="col-md-6 col-lg-4 item lightbox">
+                        <button type="button" id="NumberImg1" class="transparentButton btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/7.png">
+                            </span>
+                            <div class="countDate"><span id="ester11"></span><span id="ester12"></span><br><span id="ester13"></span><span id="ester14"></span></div>
+                        </button>
+                    </div>
+                    <!-- Video N0 #2 -->
+                    <div class="col-md-6 col-lg-4 item lightbox">
+                        <button type="button" id="NumberImg2" class="transparentButton btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/6.png">
+                            </span>
+                            <div class="countDate"><span id="ester21"></span><span id="ester22"></span><br><span id="ester23"></span><span id="ester24"></span></div>
+                        </button>
+                    </div>
+                    <!-- Video N0 #3 -->
+                    <div class="col-md-6 col-lg-4 item lightbox">
+                        <button type="button" id="NumberImg3" class="transparentButton btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/5.png">
+                            </span>
+                            <div class="countDate"><span id="ester31"></span><span id="ester32"></span><br><span id="ester33"></span><span id="ester34"></span></div>
+                        </button>
+                    </div>
+                    <!-- Video N0 #4 -->
+                    <div class="col-md-6 col-lg-4 item lightbox">
+                        <button type="button" id="NumberImg4" class="transparentButton btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/4.png">
+                            </span>
+                            <div class="countDate"><span id="ester41"></span><span id="ester42"></span><br><span id="ester43"></span><span id="ester44"></span></div>
+                        </button>
+                    </div>
+                    <!-- Video N0 #5 -->
+                    <div class="col-md-6 col-lg-4 item lightbox">
+                        <button type="button" id="NumberImg5" class="transparentButton btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/3.png">
+                            </span>
+                            <div class="countDate"><span id="ester51"></span><span id="ester52"></span><br><span id="ester53"></span><span id="ester54"></span></div>
+                        </button>
+                    </div>
+                    <!-- Video N0 #6 -->
+                    <div class="col-md-6 col-lg-4 item lightbox">
+                        <button type="button" id="NumberImg6" class="transparentButton btn btn-primary prepare" data-toggle="modal" data-target="#exampleModal6">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/2.png">
+                            </span>
+                            <div class="countDate"><span id="ester61"></span><span id="ester62"></span><br><span id="ester63"></span><span id="ester64"></span></div>
+                        </button>
+                    </div>
+                    <!-- Video N0 #7 -->
+                    <div class="col-md-6 col-lg-4 item lightbox hidden">
+                        <button type="button" id="NumberImg7" class="transparentButton btn btn-primary disabled list" data-toggle="modal" data-target="#exampleModal7">
+                            <span class="icon">
+                                <img loading="lazy" class="img-fluid image" src="assets/img/videos/1.png">
+                            </span>
+                            <div class="countDate"><span id="ester71"></span><span id="ester72"></span><br><span id="ester73"></span><span id="ester74"></span></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+                
+                <?php 
+                    $numer = $num1; $vider = $vid1; $texer = $tex1; $perer = $per1; $terer = $ter1; $imger = $img1; $invTyer = $invTy2;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img loading="lazy" src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+                <?php 
+                    $numer = $num2; $vider = $vid2; $texer = $tex2; $perer = $per2; $terer = $ter2; $imger = $img2; $invTyer = $invTy1;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img loading="lazy" src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+                <?php 
+                    $numer = $num3; $vider = $vid3; $texer = $tex3; $perer = $per3; $terer = $ter3; $imger = $img3; $invTyer = $invTy2;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+                <?php 
+                    $numer = $num4; $vider = $vid4; $texer = $tex4; $perer = $per4; $terer = $ter4; $imger = $img4; $invTyer = $invTy1;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img loading="lazy" src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+                <?php 
+                    $numer = $num5; $vider = $vid5; $texer = $tex5; $perer = $per5; $terer = $ter5; $imger = $img5; $invTyer = $invTy1;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img loading="lazy" src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+                <?php 
+                    $numer = $num6; $vider = $vid6; $texer = $tex6; $perer = $per6; $terer = $ter6; $imger = $img6; $invTyer = $invTy1;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img loading="lazy" src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+                <?php 
+                    $numer = $num7; $vider = $vid7; $texer = $tex7; $perer = $per7; $terer = $ter7; $imger = $img7; $invTyer = $invTy1;
+                    echo "<!--" . "Modal Numero " . $numer . " -->";
+                ?>
+            <div class="modal" id="exampleModal<?php echo $numer ?>" tabindex="-1" aria-labelledby="exampleModal<?php echo $numer ?>" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrevista con <?php echo $perer ?> - Sapiens Delivery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div id="player<?php echo $numer ?>" data-plyr-provider="youtube" data-plyr-embed-id="<?php echo $vider; ?>"></div>
+                        </div>
+                        <div class="container" style="margin-top:10%;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                    <div class="container">
+                                        <p>Bienvenidos, En este video entrevistaremos a <?php echo $perer ?>.</p> 
+                                        <span class="readText" id="readMoreNum<?php echo $perer ?>">
+                                            <p class="large"><?php echo $texer ?></p>
+                                            <br>
+                                            <p class="large">📌 Nosotros: Nuestra misión es divulgar el conocimiento que permita generar vínculos entre las regiones de nuestros territorio y los proyectos de investigadores.</p> 
+                                            <br>
+                                            <p>Redes sociales 🔔</p> 
+                                            <p>Youtube: <a href="https://www.youtube.com/channel/UCRw7G7gdb2D66P2JEqyGPxg">@sapiensdelivery</a></p> 
+                                            <p>Twitter: <a href="https://twitter.com/Sapiensdelivery">@sapiensdelivery</a></p> 
+                                            <p>Correo Institucional: <a href="mailto:Sapiensdelivery@gmail.com">Sapiensdelivery@gmail.com</a></p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="container divter">
+                                        <img loading="lazy" src="assets/img/videos/logs/<?php echo $imger ?>" class="img-fluid imagePerson rounded-circle" alt="<?php echo $perer ?> - Sapiens delivery">
+                                        <p class="text-center"><?php echo $invTyer ?> : <strong><?php echo $perer ?></strong><br>📍 <a href="https://sapiensdelivery.rf.gd/investigation.html?inter=<?php echo $perer ?>"><?php echo $terer ?></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript">
+    //VIDEOS
+        // Change "{}" to your options:
+        // https://github.com/sampotts/plyr/#options
+        const player1 = new Plyr('#player1', {});
+        const player2 = new Plyr('#player2', {});
+        const player3 = new Plyr('#player3', {});
+        const player4 = new Plyr('#player4', {});
+        const player5 = new Plyr('#player5', {});
+        const player6 = new Plyr('#player6', {});
+        const player7 = new Plyr('#player7', {});
+
+        // Expose player so it can be used from the console
+        window.player = player1;
+        window.player = player2;
+        window.player = player3;
+        window.player = player4;
+        window.player = player5;
+        window.player = player6;
+        window.player = player7;
+
+        var countDate1 = new Date('feb 11, 2021 15:00:00').getTime();
+        var countDate2 = new Date('feb 12, 2021 15:00:00').getTime();
+        var countDate3 = new Date('feb 13, 2021 15:00:00').getTime();
+        var countDate4 = new Date('feb 14, 2021 15:00:00').getTime();
+        var countDate5 = new Date('feb 15, 2021 15:00:00').getTime();
+        var countDate6 = new Date('feb 15, 2021 15:00:00').getTime();
+        var countDate7 = new Date('feb 17, 2021 15:00:00').getTime();
+
+        function newYear(){
+            var now = new Date().getTime();
+                gap1 = countDate1 - now;
+                gap2 = countDate2 - now;
+                gap3 = countDate3 - now;
+                gap4 = countDate4 - now;
+                gap5 = countDate5 - now;
+                gap6 = countDate6 - now;
+                gap7 = countDate7 - now;
+                
+                var second = 1000;
+                var minute = second * 60;
+                var hour = minute * 60;
+                var day = hour * 24;
+                
+                var d1 = Math.floor(gap1 / (day));
+                var h1 = Math.floor((gap1 % (day)) / (hour));
+                var m1 = Math.floor((gap1 % (hour)) / (minute));
+                var s1 = Math.floor((gap1 % (minute)) / (second));
+
+                var d2 = Math.floor(gap2 / (day));
+                var h2 = Math.floor((gap2 % (day)) / (hour));
+                var m2 = Math.floor((gap2 % (hour)) / (minute));
+                var s2 = Math.floor((gap2 % (minute)) / (second));
+
+                var d3 = Math.floor(gap3 / (day));
+                var h3 = Math.floor((gap3 % (day)) / (hour));
+                var m3 = Math.floor((gap3 % (hour)) / (minute));
+                var s3 = Math.floor((gap3 % (minute)) / (second));
+
+                var d4 = Math.floor(gap4 / (day));
+                var h4 = Math.floor((gap4 % (day)) / (hour));
+                var m4 = Math.floor((gap4 % (hour)) / (minute));
+                var s4 = Math.floor((gap4 % (minute)) / (second));
+
+                var d5 = Math.floor(gap5 / (day));
+                var h5 = Math.floor((gap5 % (day)) / (hour));
+                var m5 = Math.floor((gap5 % (hour)) / (minute));
+                var s5 = Math.floor((gap5 % (minute)) / (second));
+
+                var d6 = Math.floor(gap6 / (day));
+                var h6 = Math.floor((gap6 % (day)) / (hour));
+                var m6 = Math.floor((gap6 % (hour)) / (minute));
+                var s6 = Math.floor((gap6 % (minute)) / (second));
+
+                var d7 = Math.floor(gap7 / (day));
+                var h7 = Math.floor((gap7 % (day)) / (hour));
+                var m7 = Math.floor((gap7 % (hour)) / (minute));
+                var s7 = Math.floor((gap7 % (minute)) / (second));
+
+                var mirade = "¡Miralo Ya!";
+
+                const word = '-';
+
+                /*if (d1.includes("-")) { return d1 = ; }*/ //a4.includes(word) ? '¡Miralo Ya!' : a4
+
+                if (document.querySelector("#NumberImg1.disabled")) {
+                    document.getElementById('ester11').innerText = "Dias: " + d1 + " - ";
+                    document.getElementById('ester12').innerText = "Horas: " + h1 + " - ";
+                    document.getElementById('ester13').innerText = "Minutos: " + m1 + " - ";
+                    document.getElementById('ester14').innerText = "Segundos: " + s1 + " - ";
+                } else {
+                    document.getElementById('ester11').innerText = "¡Miralo Ya!";
+                }
+
+                if (document.querySelector("#NumberImg4.disabled")) {
+                    document.getElementById('ester21').innerText = "Dias: " + d2 + " - ";
+                    document.getElementById('ester22').innerText = "Horas: " + h2;
+                    document.getElementById('ester23').innerText = "Minutos: " + m2 + " - ";
+                    document.getElementById('ester24').innerText = "Segundos: " + s2;
+                } else {
+                    document.getElementById('ester21').innerText = "¡Miralo Ya!";
+                }
+
+                if (document.querySelector("#NumberImg3.disabled")) {
+                    document.getElementById('ester31').innerText = "Dias: " + d3 + " - ";
+                    document.getElementById('ester32').innerText = "Horas: " + h3;
+                    document.getElementById('ester33').innerText = "Minutos: " + m3 + " - ";
+                    document.getElementById('ester34').innerText = "Segundos: " + s3;
+                } else {
+                    document.getElementById('ester31').innerText = "¡Miralo Ya!";
+                }
+
+                if (document.querySelector("#NumberImg4.disabled")) {
+                    document.getElementById('ester41').innerText = "Dias: " + d4 + " - ";
+                    document.getElementById('ester42').innerText = "Horas: " + h4;
+                    document.getElementById('ester43').innerText = "Minutos: " + m4 + " - ";
+                    document.getElementById('ester44').innerText = "Segundos: " + s4;
+                } else {
+                    document.getElementById('ester41').innerText = "¡Miralo Ya!";
+                }
+
+                if (document.querySelector("#NumberImg5.disabled")) {
+                    document.getElementById('ester51').innerText = "Dias: " + d5 + " - ";
+                    document.getElementById('ester52').innerText = "Horas: " + h5;
+                    document.getElementById('ester53').innerText = "Minutos: " + m5 + " - ";
+                    document.getElementById('ester54').innerText = "Segundos: " + s5;
+                } else {
+                    document.getElementById('ester51').innerText = "¡Miralo Ya!";
+                }
+
+                if (document.querySelector("#NumberImg6.disabled")) {
+                    document.getElementById('ester61').innerText = "Dias: " + d6 + " - ";
+                    document.getElementById('ester62').innerText = "Horas: " + h6;
+                    document.getElementById('ester63').innerText = "Minutos: " + m6 + " - ";
+                    document.getElementById('ester64').innerText = "Segundos: " + s6;
+                } else {
+                    document.getElementById('ester61').innerText = "¡Miralo Ya!";
+                }
+                
+
+                if (document.querySelector("#NumberImg7.disabled")) {
+                    /*if(gap7 = "feb 17, 2021 14:00:00") {
+                        var disab = document.getElementsByClassName("disabled");
+                            for (var i = 0; i<disab.length;) {
+                            disab[i].classList.remove("disabled");
+                            }*/
+                        document.getElementById('ester71').innerText = "Dias: " + d7 + " - ";
+                        document.getElementById('ester72').innerText = "Horas: " + h7;
+                        document.getElementById('ester73').innerText = "Minutos: " + m7 + " - ";
+                        document.getElementById('ester74').innerText = "Segundos: " + s7;
+                } else {
+                    document.getElementById('ester71').innerText = "¡Miralo Ya!";
+                }
+
+                /*document.getElementById('day').innerText = d;
+                document.getElementById('hour').innerText = h;
+                document.getElementById('minute').innerText = m;
+                document.getElementById('second').innerText = s;*/
+        }
+
+        setInterval(function(){
+            newYear();
+        },1000)
+    </script>
+
+    <?php include("./admin/jsFooter.php") ?>
+</body>
+
+</html>

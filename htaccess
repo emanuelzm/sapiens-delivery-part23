@@ -1,0 +1,13 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/Bogota
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+AddType application/x-httpd-php .html

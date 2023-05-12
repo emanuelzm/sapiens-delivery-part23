@@ -1,0 +1,65 @@
+User-agent: *
+
+Allow: /
+Allow: /assets/img/avatars
+Allow: /assets/img/icons
+Allow: /assets/img/videos
+Allow: /assets/img/logos
+
+Disallow: /script/*
+Disallow: /codes/*
+Disallow: /admin/*
+Disallow: /edit/*
+Disallow: /assets/*
+Disallow: /assets/videos/otros
+Disallow: /Basu-ra-56464564/*
+
+User-agent: Google
+
+Allow: /
+Allow: /assets/img/avatars
+Allow: /assets/img/icons
+Allow: /assets/img/videos
+Allow: /assets/img/logos
+
+Disallow: /script/*
+Disallow: /codes/*
+Disallow: /admin/*
+Disallow: /edit/*
+Disallow: /assets/*
+Disallow: /assets/videos/otros
+Disallow: /Basu-ra-56464564/*
+
+User-agent: Googlebot
+
+Allow: /
+Allow: /assets/img/avatars
+Allow: /assets/img/icons
+Allow: /assets/img/videos
+Allow: /assets/img/logos
+
+Disallow: /script/*
+Disallow: /codes/*
+Disallow: /admin/*
+Disallow: /edit/*
+Disallow: /assets/*
+Disallow: /assets/videos/otros
+Disallow: /Basu-ra-56464564/*
+
+User-agent: Twitterbot
+
+Allow: /
+Allow: /assets/img/avatars
+Allow: /assets/img/icons
+Allow: /assets/img/videos
+Allow: /assets/img/logos
+
+Disallow: /script/*
+Disallow: /codes/*
+Disallow: /admin/*
+Disallow: /edit/*
+Disallow: /assets/*
+Disallow: /assets/videos/otros
+Disallow: /Basu-ra-56464564/*
+
+Sitemap: https://sapiensdelivery.tech/sitemap.xml
